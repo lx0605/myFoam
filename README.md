@@ -8,6 +8,9 @@ mkdir -p $WM_PROJECT_USER_DIR/solvers
 mkdir -p $WM_PROJECT_USER_DIR/run
 
 cd $WM_PROJECT_USER_DIR/solvers/
+
+## clone the solver repository
+
 git clone https://github.com/lx0605/myFoam.git
 
 cd singleSoluteIcoFoam
