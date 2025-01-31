@@ -1,6 +1,7 @@
-# How to build the solver with openFoam, you should already installed and openFoam
-# And have WM_PROJECT_USER_DIR in your environment variable
-# Make a project user directory using
+# Installation guide:
+## you should already installed and openFoam
+## make sure you have WM_PROJECT_USER_DIR in your environment variable
+## make a project user directory using
 
 mkdir -p $WM_PROJECT_USER_DIR/solvers/
 mkdir -p $WM_PROJECT_USER_DIR/run
