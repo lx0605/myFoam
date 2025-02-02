@@ -1,5 +1,5 @@
 # Installation guide:
-## you should already installed and openFoam
+## you should already installed openFoam
 ## make sure you have WM_PROJECT_USER_DIR in your environment variable
 ## make a project user directory using
 
