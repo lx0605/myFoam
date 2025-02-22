@@ -1,11 +1,13 @@
 # Installation guide:
-## you should already installed openFoam
+## you should already installed OpenFoam
 ## make sure you have WM_PROJECT_USER_DIR in your environment variable
-## make a project user directory using
+## make solver and run directories using
 
 mkdir -p $WM_PROJECT_USER_DIR/solvers
 
 mkdir -p $WM_PROJECT_USER_DIR/run
+
+## go to the solver directory
 
 cd $WM_PROJECT_USER_DIR/solvers/
 
@@ -17,10 +19,10 @@ cd singleSoluteIcoFoam
 
 wmake 
 
-cd transportPisoFoam
+cd ../transportPisoFoam
 
 wmake
 
-# you can copy example in into $WM_PROJECT_USER_DIR/run and run the solver
+# you can copy an example (pitzdaily) from OpenFoam into $WM_PROJECT_USER_DIR/run and run the solver
 
 # Thanks!
